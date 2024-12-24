@@ -125,7 +125,7 @@ export default {
   <p>{{ form.passwordStrength }}</p>
 
   <br /><br />
-  <p>Twitter post</p>
+  <p>Twitter post comment box</p>
   <textarea v-model="post.comment"></textarea>
   <p>{{ post.totalWords }}/200</p>
 </template>
