@@ -120,7 +120,7 @@ export default {
   <p>{{ form.slug }}</p>
 
   <br /><br />
-  <p>Strong Password Checker</p>
+  <p>Strong Password Checker - mini</p>
   <input type="text" v-model="form.password" placeholder="Enter password" />
   <p>{{ form.passwordStrength }}</p>
 
