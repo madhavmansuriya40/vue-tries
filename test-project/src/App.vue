@@ -8,6 +8,9 @@ import MultiStepForm from "@/components/MultiStepForm.vue";
 import Events from "@/components/Events.vue";
 import VBindForm from "@/components/VModelForm.vue";
 import MiniProject1 from "@/components/MiniProject1.vue";
+import BlogPost from "@/components/BlogPost.vue";
+import Todo from "@/components/TodoList/Todo.vue";
+import Main from "@/components/slots/Main.vue";
 
 export default {
   components: {
@@ -19,6 +22,9 @@ export default {
     Events,
     VBindForm,
     MiniProject1,
+    BlogPost,
+    Todo,
+    Main,
   },
 };
 </script>
@@ -31,7 +37,10 @@ export default {
   <MultiStepForm />
   <Events />
   <VBindForm /> -->
-  <MiniProject1 />
+  <!-- <MiniProject1 /> -->
+  <!-- <BlogPost title="New Blog Post" /> -->
+  <!-- <Todo /> -->
+  <Main />
 </template>
 
 <style>
